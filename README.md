@@ -108,8 +108,8 @@ YOLOv11 demonstrates superior detection performance, particularly in **complex u
 1. Clone the repo
 
    ```bash
-   git clone https://github.com/your-username/yolov11-traffic-detection.git
-   cd yolov11-traffic-detection
+   git clone https://github.com/Saikrishna-Mateti/Yolov11_Object_detection.git
+   cd Yolov11_Object_detection
    ```
 
 2. Install dependencies

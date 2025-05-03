@@ -69,13 +69,36 @@ YOLOv11 demonstrates superior detection performance, particularly in **complex u
 ## 📁 Repository Structure
 
 ```
-├── main.py                # Main detection and segmentation script
-├── model/                 # YOLOv11 weight files
-├── video/                 # Input video clips
-├── output/                # Processed videos with annotations
-├── utils/                 # Utility functions (e.g., annotation helpers)
-├── requirements.txt       # Python dependencies
-└── README.md              # You're here!
+📁 Yolov11-Object-Detection/
+├── main.py                        # Main script for detection and segmentation
+├── roboflow_dataset.py           # Script to download/prepare dataset from Roboflow
+├── train_yolov11.py              # Custom training script for YOLOv11
+├── yolo11l-seg.pt                # YOLOv11 large segmentation model weights
+├── yolo11n-seg.pt                # YOLOv11 nano segmentation model weights
+├── yolo11n_custom_trained.pt     # Your custom-trained YOLOv11 model weights
+├── requirements.txt              # List of required Python packages
+├── README.md                     # Project documentation (this file)
+
+📁 model/                          # Pretrained model weights (optional for organization)
+│   ├── yolo11l-seg.pt
+│   ├── yolo11n-seg.pt
+│   └── yolo11n_custom_trained.pt
+
+📁 video/                          # Raw input video clips
+│   ├── video_1.mp4
+│   └── video_2.mp4
+
+📁 output/                         # Output videos with bounding boxes & segmentation masks
+│   ├── output_video_1.mp4
+│   └── output_video_2.mp4
+
+📁 runs/                           # YOLO training logs and checkpoints
+│   ├── train/
+│   └── detect/
+
+📁 Output_video_files/             # Optional duplication folder for processed outputs
+│   └── (same content as /output/)
+
 ```
 
 ---

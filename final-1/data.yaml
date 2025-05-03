@@ -1,0 +1,13 @@
+train: /Users/saikrishnamateti/Documents/Yolov11 Object detection/final-1/train/images
+val: /Users/saikrishnamateti/Documents/Yolov11 Object detection/final-1/valid/images
+test: /Users/saikrishnamateti/Documents/Yolov11 Object detection/final-1/test/images
+
+nc: 15
+names: ['bicycle', 'bus', 'car', 'cow', 'dog', 'elephant', 'json', 'motorcycle', 'object', 'person', 'stop sign', 'three wheeler', 'tractor', 'truck', 'van']
+
+roboflow:
+  workspace: university-of-peradeniya-5ywn6
+  project: final-lmoyv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-of-peradeniya-5ywn6/final-lmoyv/dataset/1
